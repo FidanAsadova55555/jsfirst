@@ -46,3 +46,6 @@ if (originalNumb < 0 || (originalNumb % 10 === 0 && originalNumb !== 0)) {
         return false;
     }
     
+    console.log(findDuplicate([1, 2, 3, 1])); 
+    console.log(findDuplicate([1, 2, 3, 4]));  
+    console.log(findDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])); 
